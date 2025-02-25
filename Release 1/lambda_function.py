@@ -19,8 +19,8 @@ def lambda_handler(event, context):
         # Google Search API request
         url = "https://customsearch.googleapis.com/customsearch/v1"
         params = {
-            'key': "AIzaSyB2eeu6RllMrmQZGBmZDm72_FFYXMniM40",
-            'cx': "f231d203aba714c16",
+            'key': "API KEY",
+            'cx': "CX",
             'q': "Illinois Workforce and Education Research Collaborative (IWERC)",
             'num': 10,
             'excludeTerms': 'pdf'
